@@ -1,9 +1,12 @@
 import Foundation
+/*:
+# Ah, Dates
 
-/// Date: Specific point in time independent of any calendar / time zone
-/// DateFormatter: Date to String to Date
-/// DateComponents: Date / Time object represented in a particular calendar
-
+- `Date`: Specific point in time independent of any calendar / time zone
+- `DateFormatter`: Date to String to Date
+- `DateComponents`: Date / Time object represented in a particular calendar
+ 
+*/
 let date = Date()
 let tomorrow = Date.init(timeIntervalSinceNow: 86400)
 
