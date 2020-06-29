@@ -1,4 +1,4 @@
-import UIKit
+import Foundation
 /*:
 # Subscripting
 */
@@ -7,6 +7,7 @@ extension Array {
     return index < endIndex ? self[index] : nil
   }
 }
+
 let tasks: [String] = ["1", "2", "3", "4", "5"]
 print(tasks[safe: 5])
 
